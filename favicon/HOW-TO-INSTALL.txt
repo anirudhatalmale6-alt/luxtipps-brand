@@ -1,0 +1,8 @@
+Put favicon.ico and apple-touch-icon.png in the root of luxtipps.com, then add
+these two lines inside <head>:
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+The current site serves /favicon.png (a plain black football). Replacing that file
+with favicon-64.png works too, if changing the HTML is awkward.
